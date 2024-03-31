@@ -157,12 +157,12 @@ By combining these elements, the Stanley method provides robust and intuitive co
 
   $$\tan^{-1}(e) \in \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$$
 
-### 5. For Large Heading Errors
+**For Large Heading Errors**
 
 - For significant heading errors, the vehicle will steer in the opposite direction of the error, with steering corrections increasing as the heading error increases.
 - Steering corrections are fixed at the limit beyond the maximum steering angle, assuming no cross track error is present.
 
-### 6. For Large Positive Cross Track Errors
+**For Large Positive Cross Track Errors**
 
 - For large positive cross track errors, the steering angle adjustment is calculated as:
 
