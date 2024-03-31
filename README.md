@@ -166,10 +166,11 @@ By combining these elements, the Stanley method provides robust and intuitive co
 
 - For large positive cross track errors, the steering angle adjustment is calculated as:
 
-  $$\tan^{-1}\left(\frac{k e(t)}{v_f(t)}\right) \approx \frac{\pi}{2} - \delta(t) \approx \theta_e(t) + \frac{\pi}{2}$$
+  $$\tan^{-1}\left(\frac{k e(t)}{v_f(t)}\right) \approx \frac{\pi}{2} -> \delta(t) \approx \theta_e(t) + \frac{\pi}{2}$$
 
 - As the steering angle changes, the heading correction counters the cross track correction, driving the steering angle back towards zero.
 - As the vehicle approaches the path, the cross track error decreases, and the steering command adjusts to align the heading correctly.
+![图片](https://github.com/Jay-Wang77/Vehicle-Lateral-control/assets/137873786/831dac51-889e-45a3-a787-ef149c7c549a)
 
 ### 7. Error Dynamics
 
