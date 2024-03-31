@@ -1,4 +1,4 @@
-# Vehicle-Lateral-control
+# Vehicle-Lateral-control（Pure Pursuit and Stanley Controller）
 
 ## Pure Pursuit
 ![Geometric Bicycle Model](https://img-blog.csdnimg.cn/direct/44d5a88dd60344e799b18b7106ceacc5.png)
